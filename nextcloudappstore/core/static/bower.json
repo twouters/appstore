@@ -1,0 +1,30 @@
+{
+  "name": "nextcloudappstore",
+  "homepage": "https://github.com/nextcloud/appstore",
+  "authors": [
+    "Bernhard Posselt <dev@bernhard-posselt.com>"
+  ],
+  "description": "Nextcloud App Store",
+  "main": "",
+  "keywords": [
+    "app",
+    "store",
+    "nextcloud",
+    "files",
+    "apps"
+  ],
+  "license": "AGPLv3+",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -191,7 +191,6 @@ Then place the following content in the appropriate apache configuration:
 
     Alias /static/ /var/www/production-domain.com/static/
     Alias /robots.txt /var/www/production-domain.com/static/robots.txt
-    Alias /favicon.ico /var/www/production-domain.com/static/favicon.ico
 
     <Directory /path/to/code/nextcloudappstore>
     <Files wsgi.py>
@@ -245,6 +244,10 @@ Then adjust the database schema (if changed) by running the migrations::
 and install any dependencies (if changed)::
 
     pip install --upgrade -r requirements/base.txt
+
+Then recompile the JavaScript and CSS (requires Node.js and NPM)::
+
+    npm run build
 
 Finally run the **collectstatic** command to copy updated assets into the web server's folder:
 

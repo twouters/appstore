@@ -18,3 +18,4 @@ nextcloudappstore/local_settings.py
 *.sqlite3
 *.wp[ru]
 docs/_build/
+nextcloudappstore/core/static/vendor/

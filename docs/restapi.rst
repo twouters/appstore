@@ -109,7 +109,7 @@ This route will return all releases to display inside Nextcloud's apps admin are
             ],
             "screenshots": [
                 {
-                    "url": "http://feeds2.feedburner.com/blogerator"
+                    "url": "https://feeds2.feedburner.com/blogerator"
                 }
             ],
             "translations": {
